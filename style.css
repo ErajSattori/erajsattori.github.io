@@ -13,3 +13,7 @@ hr{
 h2{
   color: #C90A0A;
 }
+#headerpic{
+  margin: auto;
+  display: block;
+}
