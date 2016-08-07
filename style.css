@@ -1,9 +1,38 @@
 body{
   background-color: #E9E6FF;
 }
+
 table{
-  border: 1px solid #333;
+  margin: auto;
 }
+
+tr{
+  border: 1px solid #333;
+  margin: auto;
+}
+
+td{
+  border: 1px solid #333;
+  margin: auto;
+}
+
+th{
+  border: 1px solid #333;
+  margin: auto;
+}
+
+thead{
+  font-weight: bold;
+}
+
+tbody{
+
+}
+
+tfoot{
+  font-style: italic;
+}
+
 hr{
     border: 0;
     height: 1px;
@@ -12,8 +41,4 @@ hr{
 }
 h2{
   color: #C90A0A;
-}
-#headerpic{
-  margin: auto;
-  display: block;
 }
