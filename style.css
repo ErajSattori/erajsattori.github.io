@@ -1,12 +1,12 @@
 body{
-  background-color: #10606B;
+  background-color: #E9E6FF;
 }
 table{
-  border: 1px solid #fff;
+  border: 1px solid #333;
 }
 hr{
     border: 0;
     height: 1px;
     background: #333;
-    background-image: linear-gradient(to right, #00a2ed, #FFF, #00a2ed);
+    background-image: linear-gradient(to right, #E9E6FF, #333, #E9E6FF);
 }
