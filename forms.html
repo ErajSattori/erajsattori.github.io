@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Eraj Sattori - My Personal Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="google-site-verification" content="KF-MlfVKeNPbnlPOaQ17Ase-IcCL1jkEhCQtbIRFsqY" />
+</head>
+<body>
+  <header>
+    <h1>Eraj Sattori</h1>
+  </header>
+  <article>
+    <p>My name is Eraj, and I'm a Developer </p>
+    <p>My contacts: <a href="contacts">me@erajsattori.com</a></p>
+  </article>
+  <hr />
+  <center>
+    <figure>
+      <img src="/images/graphic-pic.jpg" width="600px">
+      <figcaption>
+        <p>This is My portfolio. You can look up to my projects that I did on my own. Hope you enjoy it </p>
+      </figcaption>
+    </figure>
+</center>
+  <hr />
+
+  <h2>My study:</h2>
+  <p><a href="/">Basics / Main Page (Page 1-126)</a></p>
+  <p><a href="/tables">Tables (Page 127-146)</a></p>
+  <p><a href="/forms">Forms (Page 147-16x)</a></p>
+  
+<!-- NEW PAGE FOR THIS STUDY -->
+
+  <center><h2>My Study for Day 15.08.2016<br />
+    Forms(Page 147):</h2></center>
+
+  <h3>Text and Password input:</h3>
+  <form action="/contacts" method="get">
+    <p>Username:
+      <input type="text" name="username" maxlength="32">
+    </p>
+    <p>Password:
+      <input type="password" name="password" maxlength="32">
+    </p>
+  </form>
+  <hr />
+
+  <h3>Text Area(Leaving Comments):</h3>
+  <form action="/comments" method="get">
+    <p>What do you think about this project?</p>
+      <textarea name="comments" cols="31" rows="4">Enter your comments here...</textarea>
+  </form>
+  <hr />
+
+  <h3>Radio Button amd Checkbox:</h3>
+  <form action="/profile" method="get">
+    <p>Please select your favorite programming language:
+      <br />
+      <input type="radio" name="language" value="none" checked="checked" />None
+      <input type="radio" name="language" value="csharp" />C#
+      <input type="radio" name="language" value="c++" />C++
+      <input type="radio" name="language" value="java" />Java
+      <input type="radio" name="language" value="other" />Other
+    </p>
+  </form>
+
+  <form action="/profile">
+    <p>Please select your favorite Book genres:
+      <br />
+      <input type="checkbox" name="genre" value="fiction" />Fiction
+      <input type="checkbox" name="genre" valute="sci-fiction" />Science-Fiction
+      <input type="checkbox" name="genre" value="fantasy" />Fantasy
+      <input type="checkbox" name="genre" value="horror" />Horror
+      <input type="checkbox" name="genre" valute="others" />Others
+    </p>
+  </form>
+  <hr />
+
+  <h3>Drop Down List and Multiple Select Boxes:</h3>
+  <form action="/profile">
+    <p>What is your favorite OS:</p>
+    <select name="os">
+      <option value="windows">Windows</option>
+      <option value="mac">Mac</option>
+      <option value="linux">Linux</option>
+      <option value="ios">iOS</option>
+      <option value="android">Android</option>
+      <option value="other">Other</option>
+    </select>
+  </form>
+
+  <form action="/profle">
+    <p>Select your top 3 games from the list(click Control or Command to choose more than 1):</p>
+    <select name="games" size="5" multiple="multiple">
+      <option value="skyrim">The Elder Scrolls: Skyrim</option>
+      <option value="witcher">The Wither 3: Wild Hunt</option>
+      <option value="dota2">Dota 2</option>
+      <option value="lastofus">The Last of Us</option>
+      <option value="fallout">Fallout 3</option>
+    </select>
+  </form>
+  <hr />
+
+  <h3>File Input and Submit Button:</h3>
+  <form action="/upload" method="post">
+    <p>Upload your project:</p>
+    <input type="file" name="project" /><br/>
+    <input type="submit" value="Upload" />
+  </form><br />
+
+  <form action="/subscribe">
+    <p>Subscribe to this page:</p>
+    <input type="text" name="email" />
+    <input type="submit" name="subscribe" value="Subscribe" />
+
+
+
+</body>
+</html>
