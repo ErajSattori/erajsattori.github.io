@@ -42,3 +42,10 @@ hr{
 h2{
   color: #C90A0A;
 }
+
+.markup-class{
+  font-weight:bold;
+}
+#markup-id{
+  font-style:italic;
+}
