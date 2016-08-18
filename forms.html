@@ -128,8 +128,7 @@
   <form action="/add.html">
     <button><img src="/images/button.png" widh="10px" height="10px" />Add</button>
     <input type="hidden" name="bookmark" value="lyrics" />
-  </form>
-  <hr />
+  </form><hr />
 
   <h3>Labelling Form Controls and Grouping Form Elements:</h3>
   <label>Age: <input type="text" name="age" /></label><br />
@@ -137,7 +136,7 @@
   <input id="female" type="radio" name="gender" value="f" />
   <label for="female">Female</label>
   <input id="male" type="radio" name="gender" value="m" />
-  <label for="male">Male</label><br /><hr />
+  <label for="male">Male</label><br /><br />
 
   <fieldset>
     <legend>Contact details</legend>
@@ -147,7 +146,41 @@
     <input type="text" name="mobile" /></label><br />
     <label>Telephone<br />
     <input type="text" name="telephone" /></label><br />
-  </fieldset>
+  </fieldset><br /><hr />
+
+  <h3>HTML5 - Form Validation and Date Input:</h3>
+  <form action="/register" method="post">
+    <label for="username">Username:</label>
+    <input type="text" name="username" required="required" /><br /
+    <label for="password">Password:</label>
+    <input type="password" name="password" required="required" />
+    <input type="submit" value="Submit" />
+  </form>
+
+  <form action="/register" method="post">
+    <label for="birthday">Birth Date:</label>
+    <input type="date" name="birthday" required="required" />
+    <input type="submit" value="Submit" />
+  </form><br /><hr />
+
+  <h3>HTML5 - Email, URL and Search Input</h3>
+  <form action="/profile">
+    <p>Please enter your email address:</p>
+    <input type="email" name="email" required="required" />
+    <input type="submit" value="Submit" />
+  </form><br />
+
+  <form action="/profile">
+    <p>Please enter your website:</p>
+    <input type="url" name="website" required />
+    <input type="submit" value="Submit" />
+  </form>
+
+  <form action="/search">
+    <p>Search:</p>
+    <input type="search" name="search" placeholder="Enter keyword" />
+    <input type="submit" value="Search" />
+  </form>
 
 
 
