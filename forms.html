@@ -115,9 +115,12 @@
   </form>
   <hr />
 
+  <center><h2>My Study for Day 18.08.2016<br />
+    Forms(Page 161):</h2></center>
+
   <h3>Image Button and Hidden Controls:</h3>
   <form action="/subscribe">
-      <p>Just a test over the form</p>
+      <p>Just a text over the form</p>
       <input type="text" name="email" />
       <input type="image" src="/images/button.png" />
   </form><br />
@@ -126,6 +129,26 @@
     <button><img src="/images/button.png" widh="10px" height="10px" />Add</button>
     <input type="hidden" name="bookmark" value="lyrics" />
   </form>
+  <hr />
+
+  <h3>Labelling Form Controls and Grouping Form Elements:</h3>
+  <label>Age: <input type="text" name="age" /></label><br />
+  Gender:
+  <input id="female" type="radio" name="gender" value="f" />
+  <label for="female">Female</label>
+  <input id="male" type="radio" name="gender" value="m" />
+  <label for="male">Male</label><br /><hr />
+
+  <fieldset>
+    <legend>Contact details</legend>
+    <label>Email:<br />
+    <input type="text" name="email" /></label><br />
+    <label>Mobile:<br />
+    <input type="text" name="mobile" /></label><br />
+    <label>Telephone<br />
+    <input type="text" name="telephone" /></label><br />
+  </fieldset>
+
 
 
 </body>

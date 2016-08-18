@@ -2,6 +2,10 @@ body{
   background-color: #E9E6FF;
 }
 
+fieldset{
+  width: 200px;
+}
+
 table{
 }
 
