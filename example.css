@@ -1,0 +1,15 @@
+body{
+  font-family: Arial, Verdana, sans-serif;
+}
+h1, h2, h3 {
+  color:#ee3e80;
+}
+p {
+  color:#665544;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #E9E6FF, #333, #E9E6FF);
+}
