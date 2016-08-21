@@ -7,9 +7,16 @@ h1, h2, h3 {
 p {
   color:#665544;
 }
+
 hr{
     border: 0;
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #E9E6FF, #333, #E9E6FF);
+}
+
+.pagebox{
+  border: 1px solid #665544;
+  background-color: #efefef;
+  padding: inherit;
 }
