@@ -1,5 +1,6 @@
 body{
   background-color: #E9E6FF;
+  font-family: Arial, Verdana, sans-serif;
 }
 
 
@@ -40,7 +41,11 @@ hr{
     background-image: linear-gradient(to right, #E9E6FF, #333, #E9E6FF);
 }
 h2{
-  color: #C90A0A;
+  color: #ee3e80;
+}
+
+p{
+  color: #665544;
 }
 
 .markup-class{
