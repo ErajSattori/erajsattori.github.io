@@ -1,10 +1,18 @@
 body{
+  background-color: #E9E6FF;
   font-family: Arial, Verdana, sans-serif;
   color: #665544;
-  padding: 10px
+  padding: 20px
 }
-h1, h2, h3 {
+h1{
   color:#ee3e80;
+}
+h2{
+  color:#ee0000;
+  font-size: 20px;
+}
+h3{
+  color:#665544;
 }
 p {
   color:#665544;
@@ -19,6 +27,6 @@ hr{
 
 .pagebox{
   border: 1px solid #665544;
-  background-color: #efefef;
+  background-color: #fefefe;
   padding: inherit;
 }
