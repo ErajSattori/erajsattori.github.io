@@ -10,12 +10,13 @@ body{
 }
 
 h1{
-  color:#ee3e80;
+  color:#BF0603;
   font-family: Georgia, Times, serif;
+  font-size: 22px;
 }
 
 h2{
-  color:#ee0000;
+  color:#BF0603;
   font-size: 20px;
   font-family: Georgia, Times, serif;
 }
@@ -55,4 +56,17 @@ hr{
 .urlparag{
   font-family: MotionPicture, sans-serif;
   font-size: 24px;
+}
+
+.boldtitle{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.italicparag{
+  font-style: italic;
+}
+
+.lowercase{
+  text-transform: lowercase;
 }
