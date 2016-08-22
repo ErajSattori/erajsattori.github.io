@@ -1,0 +1,57 @@
+@font-face{
+  font-family: 'MotionPicture';
+  src: url('/fonts/MotionPicture.ttf');
+}
+
+body{
+  background-color: #E9E6FF;
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+}
+
+h1{
+  color:#ee3e80;
+  font-family: Georgia, Times, serif;
+}
+
+h2{
+  color:#ee0000;
+  font-size: 20px;
+  font-family: Georgia, Times, serif;
+}
+
+h3{
+  color:#665544;
+}
+
+p {
+  color:#665544;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #E9E6FF, #333, #E9E6FF);
+}
+
+.title{
+  color: #000;
+}
+
+.credits{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+}
+
+.intro{
+  font-size: 1.3em;
+}
+
+.paragraph{
+  font-size:12px;
+}
+
+.url=parag{
+  font-family: MotionPicture, sans-serif;
+}
