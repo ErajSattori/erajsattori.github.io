@@ -9,6 +9,10 @@ body{
   color: #665544;
 }
 
+p > a{
+  text-decoration: none;
+}
+
 h1{
   color:#BF0603;
   font-family: Georgia, Times, serif;
@@ -60,6 +64,7 @@ hr{
 
 .boldtitle{
   font-weight: bold;
+  text-decoration: underline;
   text-transform: uppercase;
 }
 
@@ -73,4 +78,14 @@ hr{
 
 .line-height{
   line-height: 2em;
+}
+
+.word-spacing{
+  word-spacing: 0.5em;
+}
+
+.letter-spacing{
+  letter-spacing: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
