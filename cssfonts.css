@@ -70,3 +70,7 @@ hr{
 .lowercase{
   text-transform: lowercase;
 }
+
+.line-height{
+  line-height: 1.5em;
+}
