@@ -9,6 +9,24 @@ body{
   color: #665544;
 }
 
+a:link{
+  color: #cc0099;
+}
+
+a:hover{
+  color: #009933;
+  text-decoration: underline;
+}
+
+a:active{
+  color: darkcyan;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #993333;
+}
+
 p > a{
   text-decoration: none;
 }
