@@ -15,6 +15,7 @@ body{
   background-color: #FFEDE1;
   height: 500px;
   padding: 20px;
+  margin-top: 40px;
 }
 
 h1, h2, h3{
@@ -54,5 +55,5 @@ div img {
 }
 
 .images{
-  margin: auto;
+
 }
