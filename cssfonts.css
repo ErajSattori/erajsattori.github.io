@@ -89,3 +89,73 @@ hr{
   text-transform: uppercase;
   font-weight: bold;
 }
+
+
+.text-align{
+  background-color: #e2e2e2;
+  border: 1px solid #000;
+  width: 410px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;;
+}
+
+.headname{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 0em;
+}
+
+.author{
+  text-align: right;
+  font-style: italic;
+}
+
+.sentence{
+  text-align: justify;
+}
+
+.text-shadow{
+  border: 1px solid #000;
+  width: 500px;
+  height: 215px;
+  margin: auto;
+}
+
+.text-shadow p{
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#one{
+  background-color:#c1d7d7;
+  color: #666;
+  text-shadow: 1px 1px 0px #000;
+}
+#two{
+  background-color:#83afaf;
+  color: #666;
+  text-shadow: 1px 1px 3px #666;
+}
+
+#three{
+  background-color: #507c7c;
+  color: #fff;
+  text-shadow: 2px 2px 7px #111;
+}
+
+#four{
+  background-color: #324e4e;
+  color: #324e4e;
+  text-shadow: -1px -2px 6px #fff;
+}
+
+#five{
+  background-color: #1f2e2e;
+  color: #fff;
+  text-shadow: -1px -1px #666;
+}
