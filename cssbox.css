@@ -20,3 +20,15 @@ h2{
 h3{
   color: #BF0603;
 }
+
+.divbox{
+  background-color: #ee3e80
+  width: 400px;
+  height: 300px;
+}
+
+.insidebox{
+  background-color: #e1ddda;
+  width: 75%;
+  height: 75%;
+}
