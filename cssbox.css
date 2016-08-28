@@ -45,8 +45,12 @@ td.description{
   margin: 0px;
 }
 
-.scoringbox{
-  min-width: 650px;
-  max-width: 850px;
+table{
+  border: 1px solid #000;
+  background-color: #F5F9F8;
   margin: auto;
+}
+
+img{
+  border: 1px solid #0088dd;
 }
