@@ -30,10 +30,23 @@ h3{
   height: 75%;
 }
 
+th{
+  border-bottom: 1px solid #0088dd;
+  text-align: left;
+  color: #0088dd;
+  font-weight: normal;
+}
+
 td.description{
   min-width: 450px;
   max-width: 650px;
   text-align: left;
   padding: 5px;
   margin: 0px;
+}
+
+.scoringbox{
+  min-width: 650px;
+  max-width: 850px;
+  margin: auto;
 }
