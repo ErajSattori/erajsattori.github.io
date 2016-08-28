@@ -3,16 +3,47 @@
   src: url('/fonts/FuturaRegular.ttf');
 }
 body{
-  background-color: #EADEDA;
+  background-color: #F9FBF2;
   font-family: FuturaRegular, Arial, Verdana, sans-serif;
   padding: 80px;
   padding-top: 10px;
+  color: #0E1C36;
 }
 
 .content{
-  border: 2px solid #998888;
-  background-color: #BFB8AD;
+  border: 2px solid #0E1C36;
+  background-color: #FFEDE1;
   height: 500px;
-  border-radius: 30px;
   padding: 20px;
+}
+
+h1, h2, h3{
+  color: #D10000;
+}
+
+h1{
+  text-shadow: 2px 2px 3px #364156;
+}
+
+h2{
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 18px;
+}
+
+p{
+  text-align: justify;
+  font-size: 18px;
+}
+
+p:first-letter{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.credit{
+  font-size: 18px;
+  float: right;
+  font-style: italic;
+  text-decoration: underline;
 }
