@@ -1,0 +1,22 @@
+body{
+  background-color: #F9FBF2;
+  font-family: Arial, Verdana, sans-serif;
+  padding: 80px;
+  padding-top: 10px;
+  color: #0E1C36;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #E9E6FF, #333, #E9E6FF);
+}
+
+h2{
+  color: #BF0603;
+}
+
+h3{
+  color: #BF0603;
+}
