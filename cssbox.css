@@ -56,3 +56,99 @@ td{
 img{
   border: 1px solid #0088dd;
 }
+
+h4{
+  width: 300px;
+  font-size: 90%;
+  line-height: 1.2em;
+}
+
+h4{
+  font-size: 20px;
+  color: #0088dd;
+  border-bottom: 1px solid #0088dd;
+}
+
+.overflow{
+  background-color: white;
+  width:300px;
+  margin: auto;
+}
+
+.hidden-overflow{
+  min-height: 30px;
+  max-height: 60px;
+  font-size: 90%;
+  line-height: 1.2em;
+  overflow: hidden;
+}
+
+.scroll-overflow{
+  min-height: 30px;
+  max-height: 60px;
+  font-size: 90%;
+  line-height: 1.2em;
+  overflow: scroll;
+}
+
+.borderstyle{
+  background-color: #fff;
+  width: 300px;
+  margin: auto;
+  font-weight: bold;
+}
+#borderwidth{
+  padding: 10px;
+  border: solid;
+  border-width: 1px 2px 8px 2px;
+}
+#borderstyle-01{
+  padding: 10px;
+  border-style: dashed;
+}
+
+#borderstyle-02{
+  padding: 10px;
+  border-style: double;
+}
+
+#bordercolor{
+  padding: 10px;
+  border: solid;
+  border-color: #bbbaaa #111 #ee3e80 #0088dd;
+}
+
+#shorthand{
+  padding: 10px;
+  border: 4px inset #0088dd;
+}
+
+.padding-margin{
+  background-color: #fff;
+  width: 400px;
+  margin: auto;
+}
+
+.nopadding{
+  border: 1px solid #0088dd;
+}
+
+.padding{
+  border: 1px solid #0088dd;
+  padding: 10px;
+}
+
+.nomargin{
+  border: 1px solid #0088dd;
+}
+
+.margin{
+  border: 1px solid #0088dd;
+  margin: 10px;
+}
+
+.padmargin{
+  border: 1px solid #0088dd;
+  margin: 10px;
+  padding: 10px;
+}
