@@ -1,9 +1,13 @@
 body{
   background-color: #efefef;
-  padding-left: 300px;
-  padding-right: 300px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: #000;
+}
+
+.content{
+  max-width: 940px;
+  min-width: 720px;
+  margin: 10px auto 10px auto;
 }
 
 a {
@@ -22,13 +26,6 @@ a:hover{
   font-size: 2em;
 }
 
-.content{
-  background-color: #fff;
-  padding: 5px;
-  border-left: 2px solid #000;
-  border-right: 2px solid #000;
-  height: 100%;
-}
 
 #navigation{
   border-top: 2px solid;
@@ -50,9 +47,10 @@ li{
 }
 
 .slider{
-  width: 100%;
+  width: 600px;
   height: 250px;
-  background-color: #ff7373;
+  margin: auto;
+  background-image: url(/images/programmingbox.jpg);
   text-align: center;
   text-transform: uppercase;
   font-size: 50px;
