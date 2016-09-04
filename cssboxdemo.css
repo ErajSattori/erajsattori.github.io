@@ -52,7 +52,7 @@ li{
 .slider{
   width: 720px;
   height: 250px;
-  margin: auto;
+  margin: 10px auto;
   background-image: url(/images/programmingbox.jpg);
   text-transform: uppercase;
   font-size: 30px;
