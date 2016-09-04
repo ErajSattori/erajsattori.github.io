@@ -28,6 +28,8 @@ a:hover{
 
 
 #navigation{
+  width: 710px;
+  margin: auto;
   border-top: 2px solid;
   border-bottom: 2px solid;
   padding: 10px;
@@ -46,14 +48,20 @@ li{
   font-size; 1.2em;
 }
 
+
 .slider{
-  width: 600px;
+  width: 720px;
   height: 250px;
   margin: auto;
   background-image: url(/images/programmingbox.jpg);
-  text-align: center;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 30px;
   border: 5px inset #990000;
   color: #fff;
+}
+
+p{
+  width: 720px;
+  text-align: justify;
+  margin: 10px auto;
 }
