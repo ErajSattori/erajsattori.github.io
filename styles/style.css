@@ -92,8 +92,10 @@ p{
 }
 
 .col-inside p{
+  font-size: 14px;
   margin: 10px;
   border-bottom: 1px solid #bfbfbf;
+  text-transform: uppercase;
 }
 
 a:hover{
