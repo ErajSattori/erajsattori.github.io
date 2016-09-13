@@ -77,13 +77,19 @@ p{
   float: right;
 }
 
-.col-inside{
-  margin: 10px;
+.col-inside-left{
+  margin-right: 10px;
   background-color: #ffffff;
   border: 1px solid #bfbfbf;
 }
 
-.col-inside h2{
+.col-inside-right{
+  margin-left: 10px;
+  background-color: #ffffff;
+  border: 1px solid #bfbfbf;
+}
+
+h2{
   background-color: #39393d;
   color: #fff;
   font-size: 20px;
@@ -91,7 +97,7 @@ p{
   margin: 0px;
 }
 
-.col-inside p{
+div p{
   font-size: 14px;
   margin: 10px;
   border-bottom: 1px solid #bfbfbf;
