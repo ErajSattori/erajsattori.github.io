@@ -1,0 +1,101 @@
+body{
+  background-color: #efefef;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #000;
+}
+
+.content{
+  min-width: 720px;
+  max-width: 920px;
+  margin: 10px auto 10px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a li {
+  color: #fff;
+}
+
+a li:hover{
+  color: #af0303;
+}
+
+.header{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px 0px 5px 0px;
+  font-size: 2em;
+  border-bottom: 1px solid #000;
+}
+
+
+#navigation{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+li{
+  display: inline;
+  border: 2px solid #e66454;
+  background-color: #2B303A;
+  padding: 2px 30px 2px 30px;
+  margin: 10px auto 10px auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size; 1.2em;
+}
+
+li:hover{
+  background-color: #fff;
+}
+
+
+.slider{
+  width: 100%;
+  height: 250px;
+  background-image: url(/images/programming-slide.jpg);
+  text-transform: uppercase;
+  color: #fff;
+}
+
+p{
+  text-align: justify;
+  margin: 10px auto;
+}
+
+.col-6-left{
+  width: 50%;
+  float: left;
+}
+
+.col-6-right{
+  width: 50%;
+  float: right;
+}
+
+.col-inside{
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid #bfbfbf;
+}
+
+.col-inside h2{
+  background-color: #39393d;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.col-inside p{
+  margin: 10px;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+a:hover{
+  color: #e66454;
+}

@@ -1,38 +1,41 @@
-<!DOCTYPE HTML>
 <html>
 <head>
-  <title>Eraj Sattori - My Personal Website</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta name="google-site-verification" content="KF-MlfVKeNPbnlPOaQ17Ase-IcCL1jkEhCQtbIRFsqY" />
+  <title>CSS Boxes Demo - Eraj Sattori</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-  <header>
-    <h1>Eraj Sattori</h1>
-  </header>
-  <article>
-    <p>My name is Eraj, and I'm a Developer </p>
-    <p>My contacts: <a href="contacts">me@erajsattori.com</a></p>
-  </article>
-  <hr />
-  <center>
-    <figure>
-      <img src="/images/graphic-pic.jpg" width="600px">
-      <figcaption>
-        <p>This is My portfolio. You can look up to my projects that I did on my own. Hope you enjoy it </p>
-      </figcaption>
-    </figure>
-</center>
-  <hr />
+  <div class="content">
+    <div class="header">
+      Hi! I'm Eraj Sattori.
+    </div>
 
-  <h2>My study:</h2>
-  <p><a href="/">Basics / Main Page (Page 1-126)</a></p>
-  <p><a href="/tables">Tables (Page 127-146)</a></p>
-  <p><a href="/forms">Forms (Page 147-176)</a></p>
-  <p><a href="/extra-markup">Extra Markup (Page 176 -200)</a></p>
-  <p><a href="/cssintro">Introduction to CSS (Page 200-246)</a></p>
-  <p><a href="/csscolor">Colors in CSS(Page 246-264)</a></p>
-  <p><a href="/cssfonts">Texts in CSS(Page 265-300)</a></p>
-  <p><a href="/cssbox">CSS Boxes(Page 300-330)</a></p>
-  <p>CSS nesting in page 234(MUST LEARN)</p>
+      <ul id="navigation">
+        <a href="/"><li>Home</li></a>
+        <a href="/projects"><li>Projects</li></a>
+        <a href="/contacts"><li>Contacts</li></a>
+        <a href="/blog"><li>Blog</li></a>
+      </ul>
+      <div class="slider">
+      </div>
+      <div class="col-6-left">
+        <div class="col-inside">
+          <h2>My study:</h2>
+          <p><a href="/">Basics / Main Page (Page 1-126)</a></p>
+          <p><a href="/tables">Tables (Page 127-146)</a></p>
+          <p><a href="/forms">Forms (Page 147-176)</a></p>
+          <p><a href="/extra-markup">Extra Markup (Page 176 -200)</a></p>
+          <p><a href="/cssintro">Introduction to CSS (Page 200-246)</a></p>
+          <p><a href="/csscolor">Colors in CSS(Page 246-264)</a></p>
+          <p><a href="/cssfonts">Texts in CSS(Page 265-300)</a></p>
+          <p><a href="/cssbox">CSS Boxes(Page 300-330)</a></p>
+        </div>
+      </div>
+      <div class="col-6-right">
+        <div class="col-inside">
+          <h2>Learning Stuff:</h2>
+          <p>CSS nesting in page 234.</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
