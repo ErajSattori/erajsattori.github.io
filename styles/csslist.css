@@ -4,12 +4,6 @@ body{
   color: #000;
 }
 
-hr{
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #efefef, #333, #efefef);
-}
 
 .content{
   min-width: 720px;
@@ -21,12 +15,8 @@ a {
   text-decoration: none;
 }
 
-a li {
-  color: #fff;
-}
-
-a li:hover{
-  color: #af0303;
+a:hover{
+  color: #e66454;
 }
 
 .header{
@@ -45,7 +35,7 @@ a li:hover{
   text-align: center;
 }
 
-li{
+#navigation li{
   display: inline;
   border: 2px solid #ec1e4a;
   background-color: #070f2d;
@@ -56,9 +46,18 @@ li{
   font-size; 1.2em;
 }
 
-li:hover{
+#navigation li:hover{
   background-color: #fff;
 }
+
+#navigation a li {
+  color: #fff;
+}
+
+#navigation a li:hover{
+  color: #af0303;
+}
+
 
 
 .slider{
@@ -74,27 +73,16 @@ p{
   margin: 10px auto;
 }
 
-.col-6-left{
-  width: 50%;
-  float: left;
-}
-
-.col-6-right{
-  width: 50%;
-  float: right;
-}
-
-.col-inside-left{
-  margin: 10px 10px 10px 0px;
+.col-12{
+  width: 100%;
   background-color: #ffffff;
   border: 1px solid #bfbfbf;
 }
 
-.col-inside-right{
-  margin: 10px 0px 10px 10px;
-  background-color: #ffffff;
-  border: 1px solid #bfbfbf;
+.col-inside{
+  padding: 10px;
 }
+
 
 h2{
   background-color: #39393d;
@@ -102,15 +90,25 @@ h2{
   font-size: 20px;
   padding: 10px;
   margin: 0px;
+  text-align: center;
+}
+
+h3{
+  border-bottom: 1px solid #bfbfbf;
+  color: #39393d;
+  font-size: 18px;
+  padding: 10px 0px 10px 0px;
+  margin: 0px;
 }
 
 div p{
   font-size: 14px;
-  margin: 10px;
-  border-bottom: 1px solid #bfbfbf;
-  text-transform: uppercase;
 }
 
-a:hover{
-  color: #e66454;
+#bulletpoint{
+  list-style-type: upper-roman;
+}
+
+#imagebullet{
+  list-style-image: url('/images/style/star.png');
 }
