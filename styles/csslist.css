@@ -113,3 +113,13 @@ div p{
 #imagebullet{
   list-style-image: url('/images/style/star.png');
 }
+
+#firstmarker{
+  width: 50%;
+  list-style-position: outside;
+}
+
+#secondmarker{
+  width: 50%;
+  list-style: inside circle;
+}
