@@ -123,3 +123,12 @@ div p{
   width: 50%;
   list-style: inside circle;
 }
+
+table {
+  width: 100%;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+th, td{
+  padding: 7px 10px 10px 10px;
+}
