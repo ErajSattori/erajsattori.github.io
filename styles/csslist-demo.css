@@ -113,6 +113,7 @@ ol{
 
 table{
   border-spacing: 0px;
+  margin: auto;
 }
 
 th, td {
@@ -168,6 +169,8 @@ fieldset{
   width: 310px;
   border: 1px solid #bdbdbd;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   line-height:  1.6em;
 }
 
@@ -211,6 +214,7 @@ input[type="submit"]:hover{
 }
 
 .submit{
-  width: 330px;
-  text-align: right;
+  width: 155px;
+  text-align: center;
+  margin: auto;
 }
