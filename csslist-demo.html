@@ -1,0 +1,87 @@
+<html>
+<head>
+  <title>Lists, Tables and Forms in CSS - Eraj Sattori</title>
+  <link rel="stylesheet" type="text/css" href="styles/csslist.css">
+</head>
+<body>
+  <div class="content">
+    <div class="header">
+      Hi! I'm Eraj Sattori.
+    </div>
+
+      <ul id="navigation">
+        <a href="/"><li>Home</li></a>
+        <a href="/projects"><li>Projects</li></a>
+        <a href="/contacts"><li>Contacts</li></a>
+        <a href="/blog"><li>Blog</li></a>
+      </ul>
+      <div class="slider">
+      </div>
+      <div class="col-12">
+        <h2>Lists, Tables and Forms Demo</h2>
+        <div class="col-inside">
+          <h1>Student Discounts</h1>
+          <p>If you are a student and don't know how to save money then you are in the right place.
+            Introducing you the best offer that you can have in your student life time.
+          </p>
+          <p>You benefit from this thing, if you are a student</p>
+          <ol>
+            <li>Transport Discount</li>
+            <li>Spotify Premium Discount</li>
+            <li>Amazon Prime</li>
+          </ol>
+          <table class="offers">
+            <tr class="head">
+              <th></th>
+              <th>Children</th>
+              <th>Students</th>
+              <th>Normal People</th>
+            </tr>
+            <tr>
+              <td class="premium">Transport</td>
+              <td>Free</td>
+              <td>50% Discount</td>
+              <td>3.40 Zloty</td>
+            </tr>
+            <tr class="even">
+              <td class="premium">Spotify</td>
+              <td>Not Available</td>
+              <td>50% Discount</td>
+              <td>20 Zloty</td>
+            </tr>
+            <tr>
+              <td class="premium">Amazon</td>
+              <td>Free</td>
+              <td>6 Months Free</td>
+              <td>$10 Per Month</td>
+            </tr>
+          </table>
+          <form action="/">
+            <fieldset>
+              <legend>Register Here</legend>
+              <p>
+                <label class="title" for="name">Your Name:</label>
+                <input type="text" name="name" id="name" /><br />
+                <label class="title" for="email">Your Email:</label>
+                <input type="text" name="email" id="email" />
+              </p>
+              <p>
+                <label class="title" for="status">Status</label>
+                <select name="status" id="status">
+                  <option value="child">Child</option>
+                  <option value="student">Student</option>
+                  <option value="normal">Normal</option>
+                </select>
+              </p>
+              <span class="title">Your Gender</span>
+              <label><input type="radio" name="gender" value="Male" />Male</label>
+              <label><input type="radio" name="gender" value="Female" />Female</label>
+            </fieldset>
+            <div class="submit"><input type="submit" value="Register" /></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
