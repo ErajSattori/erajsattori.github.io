@@ -126,20 +126,21 @@ div p{
 
 table {
   width: 100%;
-  font-size: 90%;
+  font-size: 80%;
   font-family: Arial, Verdana, sans-serif;
 }
 
 th, td{
   width: 10%;
-  padding: 7px 10px 10px 10px;
+  padding: 5px;
 }
 
 th{
   text-transform: uppercase;
+  background-color: #39393d;
+  color: #fff;
   border-bottom: 2px solid #111;
   border-top: 1px solid #111;
-  text-align: left;
 }
 
 tr.even{
