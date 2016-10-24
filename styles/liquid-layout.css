@@ -21,6 +21,10 @@ li{
   margin: 1%;
 }
 
+#feature{
+  height: 15em;
+}
+
 .article-01, .article-02, .article-03{
   background-color: #efefef;
   float: left;
