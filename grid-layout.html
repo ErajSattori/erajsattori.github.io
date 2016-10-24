@@ -1,0 +1,62 @@
+<html>
+<head>
+  <title>Grid Based Layout in CSS - Eraj Sattori</title>
+  <link rel="stylesheet" type="text/css" href="styles/960_12_col.css">
+  <style>
+  *{
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    text-align: center;
+  }
+
+  li{
+    display: inline;
+    padding: 5px;
+  }
+
+  #nav, #feature, .article, #footer{
+    background-color: #efefef;
+    padding: 5px 0px 5px 0px;
+    margin-top: 20px;
+
+  }
+
+  #feature, .article {
+    height: 200px;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container_12 clearfix">
+    <div id="header" class="grid_12">
+      <h1>Grid Based Layout(Using 960.GS)</h1>
+      <div id="nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Orders</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="feature" class="grid_12">
+      <p>Features</p>
+    </div>
+    <div class="article grid_4">
+      <p>Article 01</p>
+    </div>
+    <div class="article grid_4">
+      <p>Article 02</p>
+    </div>
+    <div class="article grid_4">
+      <p>Article 03</p>
+    </div>
+
+    <div id="footer" class="grid_12">
+      <p>Something Something, Rights Reserved 2016 - Eraj Sattori</p>
+    </div>
+  </div>
+</body>
+</html>

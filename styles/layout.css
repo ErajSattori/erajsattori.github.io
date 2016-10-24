@@ -9,6 +9,7 @@ body{
   min-width: 720px;
   max-width: 920px;
   margin: 10px auto 10px auto;
+  overflow: auto;
 }
 
 a {
