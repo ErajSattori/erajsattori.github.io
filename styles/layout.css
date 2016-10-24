@@ -29,9 +29,10 @@ a:hover{
 
 
 #navigation{
-  width: 100%;
-  margin: auto;
   padding: 10px;
+  position: fixed;
+  margin: auto;
+  width: 880px;
   text-align: center;
 }
 
@@ -68,11 +69,6 @@ a:hover{
   color: #fff;
 }
 
-p{
-  text-align: justify;
-  margin: 10px auto;
-}
-
 .col-12{
   width: 100%;
   margin-top: 10px;
@@ -104,4 +100,69 @@ h3{
 
 div p{
   font-size: 14px;
+}
+
+p{
+  width: 450px;
+  text-align: justify;
+}
+
+.h4head{
+  background-color: #efefef;
+  padding: 10px;
+}
+
+.static-pos{
+  position: static;
+}
+
+.relative-pos{
+  position: relative;
+  top: 10px;
+  left: 50px;
+}
+
+.absolute-pos{
+  position: absolute;
+  width: 250px;
+  left: 800px;
+}
+
+blockquote{
+  float: right;
+  border-top: 1px solid #665544;
+  border-bottom: 1px solid #665544;
+  width: 350px;
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+  font-size: 90%;
+  font-family: Georgia. Times, sans-serif;
+  font-style: italic;
+
+}
+
+.float-text{
+  width: 100%;
+}
+
+.clear-text{
+  background-color: #efefef;
+  float: left;
+  width: 270px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.clear-div{
+  border: 1px solid #665544;
+  width: 100%;
+  overflow: auto;
+}
+
+.link-layout{
+  background-color: #efefef;
+  border: 1px solid #665544;
+  padding: 5px;
+  margin: 5px;
+  text-transform: uppercase;
 }

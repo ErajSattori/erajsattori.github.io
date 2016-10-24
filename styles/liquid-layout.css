@@ -1,0 +1,30 @@
+body{
+  width: 90%;
+  margin: 0 auto;
+  color: #656565;
+  text-align: center;
+}
+
+
+li{
+  display: inline;
+  padding: 0.5em;
+}
+#content{
+  overflow: auto;
+}
+
+
+#nav, #feature, #footer{
+  background-color: #efefef;
+  padding: 0.3em;
+  margin: 1%;
+}
+
+.article-01, .article-02, .article-03{
+  background-color: #efefef;
+  float: left;
+  width: 31.3%;
+  margin: 1%;
+  height: 10em;
+}
