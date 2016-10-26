@@ -58,10 +58,10 @@ h1{
 }
 
 .main-story{
-  background-image: url("/images/pixel/pixel.png");
+  background-image: url("http://erajsattori.com/images/pixel/pixel.png");
   background-repeat: no-repeat;
-  background-position: 122px 142px;
-  height: 520px;
+  background-position: 150px 150px;
+  height: 700px;
 }
 
 .intro{
