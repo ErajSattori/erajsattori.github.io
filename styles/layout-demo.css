@@ -87,6 +87,19 @@ h1{
   color: #656565;
 }
 
+.article{
+  padding: 10px;
+}
+
+.article p{
+
+}
+
+.paragraph-hd{
+  font-weight: bold;
+  text-align: right;
+}
+
 .footer{
   background-color: #efefef;
   padding: 10px;
