@@ -58,7 +58,7 @@ h1{
 }
 
 .main-story{
-  background-image: url("images/pixel/pixel.png");
+  background-image: url("/images/pixel/pixel.png");
   background-repeat: no-repeat;
   background-position: 122px 142px;
   height: 520px;
