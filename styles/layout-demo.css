@@ -61,10 +61,11 @@ h1{
   background-image: url("http://erajsattori.com/images/pixel/pixel.png");
   background-repeat: no-repeat;
   background-position: 150px 150px;
-  height: 700px;
+  height: 670px;
 }
 
 .intro{
+  margin-top: 20px;
   clear: left;
   text-align: justify;
   font-size: 90%;
@@ -72,7 +73,7 @@ h1{
 
 .specbox{
   border-top: 1px solid #656565;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .specs{
@@ -84,4 +85,11 @@ h1{
 .spec-dis{
   font-weight: bold;
   color: #656565;
+}
+
+.footer{
+  background-color: #efefef;
+  padding: 10px;
+  width: 100%;
+  text-align: right;
 }
