@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 
 body{
   background-color: #fff;
@@ -6,6 +6,7 @@ body{
   color: #878b8d;
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
+  font-weight: lighter;
 }
 a{
   text-decoration: none;
@@ -49,12 +50,13 @@ li{
 }
 
 .google-text{
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h1{
   font-size: 240%;
   margin-top: 90px;
+  font-weight: lighter;
 }
 
 .main-story{
@@ -96,13 +98,12 @@ h1{
 }
 
 .paragraph-hd{
-  font-weight: bold;
+  font-weight: 600;
   height: 30px;
 }
 
 .footer{
   background-color: #efefef;
-  padding: 10px;
   width: 100%;
   text-align: right;
 }
