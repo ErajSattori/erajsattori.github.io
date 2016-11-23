@@ -1,17 +1,14 @@
-(function(){
+// Y axis scroll speed
+var velocity = 0.5;
 
-  var parallax = document.querySelectorAll(".wrapper"),
-      speed = 0.5;
-
-  window.onscroll = function(){
-    [].slice.call(parallax).forEach(function(el,i){
-
-      var windowYOffset = window.pageYOffset,
-          elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
-
-      el.style.backgroundPosition = elBackgrounPos;
-
+function update(){ 
+    var pos = $(window).scrollTop();
+    $('.wrapper').each(function() {
+        var $element = $(this);
+        // subtract some from the height b/c of the padding
+        var height = $element.height()-18;
+        $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px');
     });
-  };
+};
 
-})();
+$(window).bind('scroll', update);
