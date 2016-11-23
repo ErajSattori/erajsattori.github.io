@@ -1,60 +1,11 @@
 <html>
 <head>
-<title>
-</title>
-<script>
-(function(){
-
-  var parallax = document.querySelectorAll(".container"),
-      speed = 0.3;
-
-  window.onscroll = function(){
-    [].slice.call(parallax).forEach(function(el,i){
-
-      var windowYOffset = window.pageYOffset,
-          elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
-
-      el.style.backgroundPosition = elBackgrounPos;
-
-    });
-  };
-
-})();
-
-
-</script>
-<style>
-.container{
-    padding:200px 20px 200px 20px;
-    text-align:center;
-    color:#FFF;
-    font-weight:bold;
-}
-.section-1{
-    background-image:url(http://static4.wikia.nocookie.net/__cb20130612023354/harrypotter/images/d/d1/Gradient-blue-background.jpg);
-    background-position:center;
-}
-.section-2{
-    background-image:url(http://th00.deviantart.net/fs49/PRE/f/2009/207/e/d/Orange_Desktop_Background_by_The_Dogfather.png);
-    background-position:center;
-}
-.section-3{
-    background-image:url(http://oaklandbaptist.org/media/Green-Background.jpg);
-    background-position:center;
-}
-</style>
+<title>Checking Page</title>
+<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
-
-  <div class="container section-1">
-    Welcome to this test!
-  </div>
-  <div class="container section-2">
-      There is more cool stuff below...
-  </div>
-  <div class="container section-3">
-      We are done with cool things!
-  </div>
+  <h1>Some Shit</h1>
+  <script src="http://erajsattori.com/js/greeting.js"></script>
+  <p>The End of It</p>
 </body>
 </html>
