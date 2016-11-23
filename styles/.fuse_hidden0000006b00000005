@@ -64,11 +64,9 @@ li:hover{
   background-image: url(http://erajsattori.com/images/main-bg.jpg);
   background-position: center;
 }
-
 .main-bg{
   height: 500px;
 }
-
 .main-title{
   position: absolute;
   border-bottom: 1px solid #fff;
