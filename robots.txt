@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /tables
+Disallow: /forms
+Disallow: /extra-markup
+Disallow: /cssintro
+Disallow: /csscolor
+Disallow: /cssfonts
+Disallow: /cssbox
+Disallow: /csslist
+Disallow: /layout
