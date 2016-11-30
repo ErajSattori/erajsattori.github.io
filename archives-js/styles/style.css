@@ -167,11 +167,11 @@ p{
   text-align: center;
 }
 
-p.name{
-  font-size: 120%;
+p.username{
+  font-size: 110%;
 }
 
-#name{
+#username{
   font-weight: bold;
 }
 

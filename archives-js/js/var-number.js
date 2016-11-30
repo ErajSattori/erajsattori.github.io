@@ -7,7 +7,7 @@ var message;
 username = 'Jack';
 message = 'See our upcoming range';
 
-var elUsername = document.getElementById('name');
+var elUsername = document.getElementById('username');
 elUsername.textContent = username;
 var elMessage = document.getElementById('message');
 elMessage.textContent = message;
