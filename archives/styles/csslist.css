@@ -1,0 +1,157 @@
+body{
+  background-color: #efefef;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #000;
+}
+
+
+.content{
+  min-width: 720px;
+  max-width: 920px;
+  margin: 10px auto 10px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  color: #e66454;
+}
+
+.header{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px 0px 5px 0px;
+  font-size: 2em;
+  border-bottom: 1px solid #000;
+}
+
+
+#navigation{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+#navigation li{
+  display: inline;
+  border: 2px solid #ec1e4a;
+  background-color: #070f2d;
+  padding: 2px 30px 2px 30px;
+  margin: 10px auto 10px auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size; 1.2em;
+}
+
+#navigation li:hover{
+  background-color: #fff;
+}
+
+#navigation a li {
+  color: #fff;
+}
+
+#navigation a li:hover{
+  color: #af0303;
+}
+
+
+
+.slider{
+  width: 100%;
+  height: 250px;
+  background-image: url(/images/programming-slide.jpg);
+  text-transform: uppercase;
+  color: #fff;
+}
+
+p{
+  text-align: justify;
+  margin: 10px auto;
+}
+
+.col-12{
+  width: 100%;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border: 1px solid #bfbfbf;
+}
+
+.col-inside{
+  padding: 10px;
+}
+
+
+h2{
+  background-color: #39393d;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+}
+
+h3{
+  border-bottom: 1px solid #bfbfbf;
+  color: #39393d;
+  font-size: 18px;
+  padding: 10px 0px 10px 0px;
+  margin: 0px;
+}
+
+div p{
+  font-size: 14px;
+}
+
+#bulletpoint{
+  list-style-type: upper-roman;
+}
+
+#imagebullet{
+  list-style-image: url('/images/style/star.png');
+}
+
+#firstmarker{
+  width: 50%;
+  list-style-position: outside;
+}
+
+#secondmarker{
+  width: 50%;
+  list-style: inside circle;
+}
+
+table {
+  width: 100%;
+  font-size: 80%;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+th, td{
+  width: 10%;
+  padding: 5px;
+}
+
+th{
+  text-transform: uppercase;
+  background-color: #39393d;
+  color: #fff;
+  border-bottom: 2px solid #111;
+  border-top: 1px solid #111;
+}
+
+tr.even{
+  background-color: #efefef;
+}
+
+tr:hover{
+  background-color: #c3e6e5;
+}
+
+.week-day{
+  text-transform: uppercase;
+  font-weight: bold;
+}
