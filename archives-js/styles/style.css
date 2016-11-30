@@ -154,29 +154,25 @@ p{
   Introduction to JavaScript
 */
 
-#js-intro{
-    background-color: #fff;
-    color: #31373f;
-    display: inline-block;
-    padding: 30px 50px;
-    margin: 20px auto 50px auto;
-    max-width: 580px;
-    min-height: 4em;
-    overflow: auto;
-    text-align: center;}
-}
 
 #cost{
     background-color: #f84c53;
     color: #fff;
     width: auto;
-    height: 1 em;
-    padding: 0.5em 0.75em;
-    float: right;}
+    height: 1em;
+    padding: 0.5em 0.75em;}
 
 .signage{
   text-transform: uppercase;
   text-align: center;
+}
+
+p.name{
+  font-size: 120%;
+}
+
+#name{
+  font-weight: bold;
 }
 
 /*
