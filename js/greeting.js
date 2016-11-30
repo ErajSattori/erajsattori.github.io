@@ -1,3 +1,9 @@
+/*
+
+  This script displays a greeting to the user based on current time.
+  Created by Eraj Sattori.
+*/
+
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
