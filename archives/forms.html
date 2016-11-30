@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Eraj Sattori - My Personal Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <h2>My study:</h2>
+  <p><a href="/">Basics / Main Page (Page 1-126)</a></p>
+
+<!-- NEW PAGE FOR THIS STUDY -->
+
+  <center><h2>My Study for Day 15.08.2016<br />
+    Forms(Page 147):</h2></center>
+
+  <h3>Text and Password input:</h3>
+  <form action="/contacts" method="get">
+    <p>Username:
+      <input type="text" name="username" maxlength="32">
+    </p>
+    <p>Password:
+      <input type="password" name="password" maxlength="32">
+    </p>
+  </form>
+  <hr />
+
+  <h3>Text Area(Leaving Comments):</h3>
+  <form action="/comments" method="get">
+    <p>What do you think about this project?</p>
+      <textarea name="comments" cols="31" rows="4">Enter your comments here...</textarea>
+  </form>
+  <hr />
+
+  <h3>Radio Button amd Checkbox:</h3>
+  <form action="/profile" method="get">
+    <p>Please select your favorite programming language:
+      <br />
+      <input type="radio" name="language" value="none" checked="checked" />None
+      <input type="radio" name="language" value="csharp" />C#
+      <input type="radio" name="language" value="c++" />C++
+      <input type="radio" name="language" value="java" />Java
+      <input type="radio" name="language" value="other" />Other
+    </p>
+  </form>
+
+  <form action="/profile">
+    <p>Please select your favorite Book genres:
+      <br />
+      <input type="checkbox" name="genre" value="fiction" />Fiction
+      <input type="checkbox" name="genre" valute="sci-fiction" />Science-Fiction
+      <input type="checkbox" name="genre" value="fantasy" />Fantasy
+      <input type="checkbox" name="genre" value="horror" />Horror
+      <input type="checkbox" name="genre" valute="others" />Others
+    </p>
+  </form>
+  <hr />
+
+  <h3>Drop Down List and Multiple Select Boxes:</h3>
+  <form action="/profile">
+    <p>What is your favorite OS:</p>
+    <select name="os">
+      <option value="windows">Windows</option>
+      <option value="mac">Mac</option>
+      <option value="linux">Linux</option>
+      <option value="ios">iOS</option>
+      <option value="android">Android</option>
+      <option value="other">Other</option>
+    </select>
+  </form>
+
+  <form action="/profle">
+    <p>Select your top 3 games from the list(click Control or Command to choose more than 1):</p>
+    <select name="games" size="5" multiple="multiple">
+      <option value="skyrim">The Elder Scrolls: Skyrim</option>
+      <option value="witcher">The Wither 3: Wild Hunt</option>
+      <option value="dota2">Dota 2</option>
+      <option value="lastofus">The Last of Us</option>
+      <option value="fallout">Fallout 3</option>
+    </select>
+  </form>
+  <hr />
+
+  <h3>File Input and Submit Button:</h3>
+  <form action="/upload" method="post">
+    <p>Upload your project:</p>
+    <input type="file" name="project" /><br/>
+    <input type="submit" value="Upload" />
+  </form><br />
+
+  <form action="/subscribe">
+    <p>Subscribe to this page:</p>
+    <input type="text" name="email" />
+    <input type="submit" name="subscribe" value="Subscribe" />
+  </form>
+  <hr />
+
+  <center><h2>My Study for Day 18.08.2016<br />
+    Forms(Page 161-176):</h2></center>
+
+  <h3>Image Button and Hidden Controls:</h3>
+  <form action="/subscribe">
+      <p>Just a text over the form</p>
+      <input type="text" name="email" />
+      <input type="image" src="/images/button.png" />
+  </form><br />
+
+  <form action="/add.html">
+    <button><img src="/images/button.png" widh="10px" height="10px" />Add</button>
+    <input type="hidden" name="bookmark" value="lyrics" />
+  </form><hr />
+
+  <h3>Labelling Form Controls and Grouping Form Elements:</h3>
+  <label>Age: <input type="text" name="age" /></label><br />
+  Gender:
+  <input id="female" type="radio" name="gender" value="f" />
+  <label for="female">Female</label>
+  <input id="male" type="radio" name="gender" value="m" />
+  <label for="male">Male</label><br /><br />
+
+  <fieldset class="learn-contact-details">
+    <legend>Contact details</legend>
+    <label>Email:<br />
+    <input type="text" name="email" /></label><br />
+    <label>Mobile:<br />
+    <input type="text" name="mobile" /></label><br />
+    <label>Telephone<br />
+    <input type="text" name="telephone" /></label><br />
+  </fieldset><br /><hr />
+
+  <h3>HTML5 - Form Validation and Date Input:</h3>
+  <form action="/register" method="post">
+    <label for="username">Username:</label>
+    <input type="text" name="username" required="required" /><br /
+    <label for="password">Password:</label>
+    <input type="password" name="password" required="required" />
+    <input type="submit" value="Submit" />
+  </form>
+
+  <form action="/register" method="post">
+    <label for="birthday">Birth Date:</label>
+    <input type="date" name="birthday" required="required" />
+    <input type="submit" value="Submit" />
+  </form><br /><hr />
+
+  <h3>HTML5 - Email, URL and Search Input</h3>
+  <form action="/profile">
+    <p>Please enter your email address:</p>
+    <input type="email" name="email" required="required" />
+    <input type="submit" value="Submit" />
+  </form><br />
+
+  <form action="/profile">
+    <p>Please enter your website:</p>
+    <input type="url" name="website" required />
+    <input type="submit" value="Submit" />
+  </form>
+
+  <form action="/search">
+    <p>Search:</p>
+    <input type="search" name="search" placeholder="Enter keyword" />
+    <input type="submit" value="Search" />
+  </form><br />
+  <h3><a href="/form-demo">Check demo</a></h3>
+
+
+
+</body>
+</html>
