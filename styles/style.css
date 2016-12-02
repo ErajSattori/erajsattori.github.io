@@ -61,7 +61,6 @@ li:hover{
 .wrapper{
   background: url(http://erajsattori.com/images/main-bg.jpg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
   width: 100%;
   background-color: #000;
 }
