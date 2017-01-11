@@ -20,3 +20,13 @@ if (hourNow > 16) {
 }
 
 document.write(greeting + ' I am...<br />');
+
+
+function main() {
+  $('.study-menu').hide();
+  $('.study-menu').fadeIn(2000);
+}
+
+
+
+$(document).ready(main);
