@@ -2,6 +2,7 @@
 
   var parallax = document.querySelectorAll(".wrapper"),
       speed = 0.5;
+      
 
   window.onscroll = function(){
     [].slice.call(parallax).forEach(function(el,i){
